@@ -1,0 +1,15 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Remote_DCrypt.Action.FormAction.resources
+obj\Debug\Remote_DCrypt.Action.FormPwd.resources
+obj\Debug\Remote_DCrypt.FormMain.resources
+obj\Debug\Remote_DCrypt.Properties.Resources.resources
+obj\Debug\Remote_DCrypt.Settings.FormSettings.resources
+obj\Debug\Remote DCrypt.csproj.GenerateResource.Cache
+obj\Debug\Remote DCrypt.exe
+bin\Debug\Remote DCrypt.exe
+bin\Debug\Remote DCrypt.pdb
+obj\Debug\Remote DCrypt.pdb
+obj\Debug\Netcode.Controls.FlatFileExplorer.resources
+obj\Debug\Remote_DCrypt.Controls.FormViewer.resources
+obj\Debug\Remote_DCrypt.Controls.FormCFolder.resources
+obj\Debug\WindowsApplication1.TextBoxSelectFolder.resources

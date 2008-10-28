@@ -1,0 +1,228 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{669C3FCE-10FB-4D84-95DF-C5E40BE86D55}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Local_DCrypt</RootNamespace>
+    <AssemblyName>LCrypt</AssemblyName>
+    <ApplicationIcon>indx.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Action\FormAction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Action\FormAction.Designer.cs">
+      <DependentUpon>FormAction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Action\FormPwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Action\FormPwd.Designer.cs">
+      <DependentUpon>FormPwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContactManager\FormCM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContactManager\FormCM.Designer.cs">
+      <DependentUpon>FormCM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContactManager\FormPref.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContactManager\FormPref.Designer.cs">
+      <DependentUpon>FormPref.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FlatFileExplorer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\FlatFileExplorer.Designer.cs">
+      <DependentUpon>FlatFileExplorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FormCFolder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\FormCFolder.Designer.cs">
+      <DependentUpon>FormCFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FormViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\FormViewer.Designer.cs">
+      <DependentUpon>FormViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TextBoxSelectFolder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\TextBoxSelectFolder.Designer.cs">
+      <DependentUpon>TextBoxSelectFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Crypt.cs" />
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NIcon.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Action\FormAction.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormAction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Action\FormPwd.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormPwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContactManager\FormCM.resx">
+      <DependentUpon>FormCM.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContactManager\FormPref.resx">
+      <DependentUpon>FormPref.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\FlatFileExplorer.resx">
+      <DependentUpon>FlatFileExplorer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\FormCFolder.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormCFolder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\FormViewer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\TextBoxSelectFolder.resx">
+      <DependentUpon>TextBoxSelectFolder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\FormSettings.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Settings\FormSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\FormSettings.Designer.cs">
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\ManageSetting.cs" />
+    <Compile Include="PrepareInit.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\sett.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\ref.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\folder-cr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\exp_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\edit_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\edit_sec.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\rename.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\del_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\encr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\decr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Telecommunications.png" />
+    <None Include="img\Mail.png" />
+    <None Include="img\wm.png" />
+    <None Include="img\YM.png" />
+    <None Include="img\icq.png" />
+    <None Include="img\Caribean.png" />
+    <None Include="img\Earth.png" />
+    <None Include="img\ID  Add.png" />
+    <None Include="img\folder-open_16.png" />
+    <None Include="img\ID Inf.png" />
+    <None Include="img\copy_16.png" />
+    <None Include="img\cm.png" />
+    <None Include="img\lc.png" />
+    <None Include="img\save_16.png" />
+    <None Include="img\saveas_16.png" />
+    <None Include="img\down.png" />
+    <None Include="img\up.png" />
+    <None Include="img\other.png" />
+    <Content Include="indx.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
