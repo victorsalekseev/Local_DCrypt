@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using Remote_DCrypt.Settings;
 using System.Windows.Forms;
-using Local_DCrypt.Controls;
+using Netcode.Controls;
+using System.Reflection;
+using System.IO;
 
 namespace Remote_DCrypt
 {
@@ -125,4 +127,4 @@ namespace Remote_DCrypt
             return yes;
         }
     }
-}
+    }

@@ -3,15 +3,29 @@ obj\Debug\LCrypt.pdb
 bin\Debug\LCrypt.exe
 bin\Debug\LCrypt.pdb
 obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\Remote_DCrypt.Action.FormAction.resources
-obj\Debug\Remote_DCrypt.Action.FormPwd.resources
 obj\Debug\Netcode.Controls.FlatFileExplorer.resources
 obj\Debug\Remote_DCrypt.Controls.FormCFolder.resources
 obj\Debug\Remote_DCrypt.Controls.FormViewer.resources
-obj\Debug\Local_DCrypt.Controls.TextBoxSelectFolder.resources
 obj\Debug\Remote_DCrypt.FormMain.resources
 obj\Debug\Local_DCrypt.Properties.Resources.resources
 obj\Debug\Remote_DCrypt.Settings.FormSettings.resources
 obj\Debug\Local DCrypt.csproj.GenerateResource.Cache
 obj\Debug\Local_DCrypt.FormPref.resources
 obj\Debug\Local_DCrypt.FormCM.resources
+bin\Debug\Changelog.txt
+bin\Debug\License-rus_v1.4.txt
+bin\Debug\Netcode.Common.dll
+bin\Debug\Netcode.Common.pdb
+obj\Debug\Remote_DCrypt.FormLicensing.resources
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Local_DCrypt.FormCM.resources
+obj\Release\Local_DCrypt.FormPref.resources
+obj\Release\Netcode.Controls.FlatFileExplorer.resources
+obj\Release\Remote_DCrypt.Controls.FormCFolder.resources
+obj\Release\Remote_DCrypt.Controls.FormViewer.resources
+obj\Release\Remote_DCrypt.FormLicensing.resources
+obj\Release\Remote_DCrypt.FormMain.resources
+obj\Release\Local_DCrypt.Properties.Resources.resources
+obj\Release\Remote_DCrypt.Settings.FormSettings.resources
+obj\Release\Local DCrypt.csproj.GenerateResource.Cache
+obj\Release\LCrypt.exe

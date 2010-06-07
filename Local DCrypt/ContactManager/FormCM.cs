@@ -11,6 +11,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using Remote_DCrypt;
 using System.Security.Cryptography;
 using Remote_DCrypt.Settings;
+using Netcode.Crypt;
 
 namespace Local_DCrypt
 {
@@ -152,7 +153,7 @@ namespace Local_DCrypt
                 using (MemoryStream sWriter = new MemoryStream(12))
                 {
                     myXmlSer.Serialize(sWriter, ct);
-                    new Crypt().encryt_byte_to_file(Encoding.ASCII.GetString(key), 256, sWriter.GetBuffer(), filename, new ProgressBar());
+                    new FileCrypt().encryt_byte_to_file(Encoding.ASCII.GetString(key), 256, sWriter.GetBuffer(), filename, new ProgressBar());
                     sWriter.Close();
                 }
             }
@@ -189,7 +190,7 @@ namespace Local_DCrypt
                 pdb.HashName = "SHA512"; //будем использовать SHA512
                 byte[] key = pdb.GetBytes(12);
 
-                byte[] bt = new Crypt().decrypt_file_to_byte(Encoding.ASCII.GetString(key), 256, filename, new ProgressBar());
+                byte[] bt = new FileCrypt().decrypt_file_to_byte(Encoding.ASCII.GetString(key), 256, filename, new ProgressBar());
 
                 using (MemoryStream ms = new MemoryStream(bt, false))
                 {

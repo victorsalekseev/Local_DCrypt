@@ -8,6 +8,7 @@ using System.Windows.Forms;
 using System.IO;
 using System.Security.Permissions;
 using Microsoft.Win32;
+using Netcode.Crypt;
 
 // вот о чём речь
 [assembly: RegistryPermissionAttribute(SecurityAction.RequestMinimum, ViewAndModify = "HKEY_CURRENT_USER")]
@@ -34,7 +35,7 @@ namespace Remote_DCrypt.Settings
 
         private void button_ok_Click(object sender, EventArgs e)
         {
-            if (Crypt.CheckKeyFNameLen(textBox_fnamekey.Text))
+            if (FileCrypt.CheckKeyFNameLen(textBox_fnamekey.Text))
             {
                 SaveFromControls();
                 ManageSetting.CreateSettings(o);
@@ -57,12 +58,12 @@ namespace Remote_DCrypt.Settings
             }
             else
             {
-                o.key_fname = Crypt.default_key;//50;
+                o.key_fname = FileCrypt.default_key;//50;
                 o.left_init_dir = @"";
                 o.right_init_dir = @"";
                 o.prefix = "0";
                 o.key_size = "256";
-                o.pwd_file_enc = Crypt.default_key;
+                o.pwd_file_enc = FileCrypt.default_key;
                 o.def_name_fcont = "Contacts.cr";
                 //o.pwd = "password";
                 //ManageSetting.CreateSettings(o);

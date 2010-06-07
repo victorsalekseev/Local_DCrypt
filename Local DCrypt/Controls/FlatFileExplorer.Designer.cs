@@ -41,6 +41,7 @@ namespace Netcode.Controls
             this.открытьВнутриToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.изменитьToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.переименоватьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.списокФайловToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.удалитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.imageListIcons = new System.Windows.Forms.ImageList(this.components);
             this.textBox_local_name = new System.Windows.Forms.TextBox();
@@ -49,6 +50,7 @@ namespace Netcode.Controls
             this.listView_Local = new System.Windows.Forms.ListView();
             this.columnHeaderName = new System.Windows.Forms.ColumnHeader();
             this.columnHeaderFileSize = new System.Windows.Forms.ColumnHeader();
+            this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.contextMenuStrip_local.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,66 +64,74 @@ namespace Netcode.Controls
             this.открытьВнутриToolStripMenuItem,
             this.изменитьToolStripMenuItem1,
             this.переименоватьToolStripMenuItem,
+            this.списокФайловToolStripMenuItem,
             this.удалитьToolStripMenuItem});
             this.contextMenuStrip_local.Name = "contextMenuStrip_local";
-            this.contextMenuStrip_local.Size = new System.Drawing.Size(173, 180);
+            this.contextMenuStrip_local.Size = new System.Drawing.Size(175, 202);
             // 
             // загрузитьToolStripMenuItem
             // 
             this.загрузитьToolStripMenuItem.Enabled = false;
-            this.загрузитьToolStripMenuItem.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.загрузитьToolStripMenuItem.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.загрузитьToolStripMenuItem.Image = global::Local_DCrypt.Properties.Resources.encr;
             this.загрузитьToolStripMenuItem.Name = "загрузитьToolStripMenuItem";
-            this.загрузитьToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.загрузитьToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.загрузитьToolStripMenuItem.Text = "Отправить";
             // 
             // обновитьToolStripMenuItem
             // 
             this.обновитьToolStripMenuItem.Image = global::Local_DCrypt.Properties.Resources._ref;
             this.обновитьToolStripMenuItem.Name = "обновитьToolStripMenuItem";
-            this.обновитьToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.обновитьToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.обновитьToolStripMenuItem.Text = "Обновить";
             // 
             // создатьПапкуToolStripMenuItem
             // 
             this.создатьПапкуToolStripMenuItem.Image = global::Local_DCrypt.Properties.Resources.folder_cr;
             this.создатьПапкуToolStripMenuItem.Name = "создатьПапкуToolStripMenuItem";
-            this.создатьПапкуToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.создатьПапкуToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.создатьПапкуToolStripMenuItem.Text = "Создать папку";
             // 
             // открытьToolStripMenuItem
             // 
             this.открытьToolStripMenuItem.Image = global::Local_DCrypt.Properties.Resources.exp_16;
             this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
-            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.открытьToolStripMenuItem.Text = "Открыть внешне";
             // 
             // открытьВнутриToolStripMenuItem
             // 
             this.открытьВнутриToolStripMenuItem.Image = global::Local_DCrypt.Properties.Resources.edit_sec;
             this.открытьВнутриToolStripMenuItem.Name = "открытьВнутриToolStripMenuItem";
-            this.открытьВнутриToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.открытьВнутриToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.открытьВнутриToolStripMenuItem.Text = "Изменить внутри";
             // 
             // изменитьToolStripMenuItem1
             // 
             this.изменитьToolStripMenuItem1.Image = global::Local_DCrypt.Properties.Resources.edit_16;
             this.изменитьToolStripMenuItem1.Name = "изменитьToolStripMenuItem1";
-            this.изменитьToolStripMenuItem1.Size = new System.Drawing.Size(172, 22);
+            this.изменитьToolStripMenuItem1.Size = new System.Drawing.Size(174, 22);
             this.изменитьToolStripMenuItem1.Text = "Изменить";
             // 
             // переименоватьToolStripMenuItem
             // 
             this.переименоватьToolStripMenuItem.Image = global::Local_DCrypt.Properties.Resources.rename;
             this.переименоватьToolStripMenuItem.Name = "переименоватьToolStripMenuItem";
-            this.переименоватьToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.переименоватьToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.переименоватьToolStripMenuItem.Text = "Переименовать";
+            // 
+            // списокФайловToolStripMenuItem
+            // 
+            this.списокФайловToolStripMenuItem.Image = global::Local_DCrypt.Properties.Resources.other;
+            this.списокФайловToolStripMenuItem.Name = "списокФайловToolStripMenuItem";
+            this.списокФайловToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.списокФайловToolStripMenuItem.Text = "Список файлов...";
             // 
             // удалитьToolStripMenuItem
             // 
             this.удалитьToolStripMenuItem.Image = global::Local_DCrypt.Properties.Resources.del_16;
             this.удалитьToolStripMenuItem.Name = "удалитьToolStripMenuItem";
-            this.удалитьToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.удалитьToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.удалитьToolStripMenuItem.Text = "Удалить";
             // 
             // imageListIcons
@@ -133,6 +143,8 @@ namespace Netcode.Controls
             this.imageListIcons.Images.SetKeyName(2, "folder_w.png");
             this.imageListIcons.Images.SetKeyName(3, "comment.png");
             this.imageListIcons.Images.SetKeyName(4, "comment_w.png");
+            this.imageListIcons.Images.SetKeyName(5, "Image-cr.png");
+            this.imageListIcons.Images.SetKeyName(6, "Image-ncr.png");
             // 
             // textBox_local_name
             // 
@@ -147,10 +159,12 @@ namespace Netcode.Controls
             // 
             // textBoxPath
             // 
+            this.textBoxPath.Cursor = System.Windows.Forms.Cursors.Hand;
             this.textBoxPath.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.textBoxPath.Enabled = false;
             this.textBoxPath.Location = new System.Drawing.Point(0, 372);
             this.textBoxPath.Name = "textBoxPath";
+            this.textBoxPath.ReadOnly = true;
             this.textBoxPath.Size = new System.Drawing.Size(343, 20);
             this.textBoxPath.TabIndex = 3;
             // 
@@ -206,6 +220,11 @@ namespace Netcode.Controls
             this.columnHeaderFileSize.Text = "";
             this.columnHeaderFileSize.Width = 78;
             // 
+            // saveFileDialog
+            // 
+            this.saveFileDialog.Filter = "Текстовые файлы|*.txt|Все файлы|*.*";
+            this.saveFileDialog.Title = "Выберите директорию для сохранения списка имен файлов";
+            // 
             // FlatFileExplorer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -240,5 +259,7 @@ namespace Netcode.Controls
         private System.Windows.Forms.ListView listView_Local;
         private System.Windows.Forms.ColumnHeader columnHeaderName;
         private System.Windows.Forms.ColumnHeader columnHeaderFileSize;
+        private System.Windows.Forms.ToolStripMenuItem списокФайловToolStripMenuItem;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog;
     }
 }

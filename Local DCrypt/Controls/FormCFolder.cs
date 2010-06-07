@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using Netcode.Crypt;
 
 namespace Remote_DCrypt.Controls
 {
@@ -59,7 +60,7 @@ namespace Remote_DCrypt.Controls
             get {
                 if (checkBox_isEncrypt.Checked)
                 {
-                    return new Crypt().EncryptFName(textBox_act.Text, PrefSettings.key_fname, PrefSettings.prefix);
+                    return new FileCrypt().EncryptFName(textBox_act.Text, PrefSettings.key_fname, PrefSettings.prefix);
                 }
                 return textBox_act.Text; }
             set { textBox_act.Text = value; }

@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Windows.Forms;
 using System.IO;
-using Remote_DCrypt.Action;
 using Remote_DCrypt.Settings;
+using Necode.Crypt.Action;
+using Netcode.Messages;
+using System.Text;
 
 namespace Remote_DCrypt
 {
@@ -18,6 +20,52 @@ namespace Remote_DCrypt
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
+            if (!File.Exists(Licensing.license_rus))
+            {
+                FormLicensing frm_l = new FormLicensing();
+                DialogResult dr = frm_l.ShowDialog();
+
+                switch (dr)
+                {
+                    case DialogResult.Abort:
+                        {
+                            Application.Exit();
+                        }
+                        break;
+                    case DialogResult.Yes:
+                        {
+                            try
+                            {
+                                using (StreamWriter sw = new StreamWriter(Licensing.license_rus, false, Encoding.UTF8))
+                                {
+                                    sw.Write(frm_l.AssemblyDescription);
+                                    sw.Close();
+                                }
+                            }
+                            catch
+                            {
+                                new CriticalErrors().PrintError("S3", "Не получилось сохранить файл лицензионного соглашения");
+                            }
+                            finally
+                            {
+                                InitApp(argc);
+                            }
+                        }
+                        break;
+                    default:
+                        break;
+                }
+
+                frm_l.Dispose();
+            }
+            else
+            {
+                InitApp(argc);
+            }            
+        }
+
+        private static void InitApp(string[] argc)
+        {
             if (!File.Exists(ManageSetting.path_to_set_file))
             {
                 FormSettings frm_set = new FormSettings();
@@ -39,7 +87,7 @@ namespace Remote_DCrypt
                 {
                     if (Directory.Exists(PrefSettings.right_init_dir))
                     {
-                        Application.Run(new FormAction(argc[0], PrefSettings.right_init_dir, true));
+                        Application.Run(new FormAction(argc[0], PrefSettings.right_init_dir, string.Empty, string.Empty, true, PrefSettings.prefix, PrefSettings.pwd_file_enc, Convert.ToUInt16(PrefSettings.key_size), PrefSettings.key_fname));
                     }
                     else
                     {

@@ -60,3 +60,90 @@ C:\Documents and Settings\Admin\Рабочий стол\Local_DCrypt_SRC_v1.3\Lo
 C:\Documents and Settings\Admin\Рабочий стол\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Local_DCrypt.Properties.Resources.resources
 C:\Documents and Settings\Admin\Рабочий стол\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Remote_DCrypt.Settings.FormSettings.resources
 C:\Documents and Settings\Admin\Рабочий стол\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Local DCrypt.csproj.GenerateResource.Cache
+F:\mdoc\Desktop\Проекты\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\LCrypt.exe
+F:\mdoc\Desktop\Проекты\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\LCrypt.pdb
+F:\mdoc\Desktop\Проекты\Local_DCrypt_SRC_v1.3\Local DCrypt\bin\Debug\LCrypt.exe
+F:\mdoc\Desktop\Проекты\Local_DCrypt_SRC_v1.3\Local DCrypt\bin\Debug\LCrypt.pdb
+F:\mdoc\Desktop\Проекты\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\ResolveAssemblyReference.cache
+F:\mdoc\Desktop\Проекты\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Remote_DCrypt.Action.FormAction.resources
+F:\mdoc\Desktop\Проекты\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Remote_DCrypt.Action.FormPwd.resources
+F:\mdoc\Desktop\Проекты\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Local_DCrypt.FormCM.resources
+F:\mdoc\Desktop\Проекты\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Local_DCrypt.FormPref.resources
+F:\mdoc\Desktop\Проекты\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Netcode.Controls.FlatFileExplorer.resources
+F:\mdoc\Desktop\Проекты\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Remote_DCrypt.Controls.FormCFolder.resources
+F:\mdoc\Desktop\Проекты\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Remote_DCrypt.Controls.FormViewer.resources
+F:\mdoc\Desktop\Проекты\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Local_DCrypt.Controls.TextBoxSelectFolder.resources
+F:\mdoc\Desktop\Проекты\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Remote_DCrypt.FormMain.resources
+F:\mdoc\Desktop\Проекты\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Local_DCrypt.Properties.Resources.resources
+F:\mdoc\Desktop\Проекты\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Remote_DCrypt.Settings.FormSettings.resources
+F:\mdoc\Desktop\Проекты\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Local DCrypt.csproj.GenerateResource.Cache
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\LCrypt.exe
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\LCrypt.pdb
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\bin\Release\LCrypt.exe
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\bin\Release\LCrypt.pdb
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Release\ResolveAssemblyReference.cache
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Release\Local_DCrypt.FormCM.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Release\Local_DCrypt.FormPref.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Release\Netcode.Controls.FlatFileExplorer.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Release\Remote_DCrypt.Controls.FormCFolder.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Release\Remote_DCrypt.Controls.FormViewer.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Release\Remote_DCrypt.FormMain.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Release\Local_DCrypt.Properties.Resources.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Release\Remote_DCrypt.Settings.FormSettings.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Release\Local DCrypt.csproj.GenerateResource.Cache
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Release\LCrypt.exe
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Release\LCrypt.pdb
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\ResolveAssemblyReference.cache
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Local_DCrypt.FormCM.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Local_DCrypt.FormPref.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Netcode.Controls.FlatFileExplorer.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Remote_DCrypt.Controls.FormCFolder.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Remote_DCrypt.Controls.FormViewer.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Remote_DCrypt.FormMain.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Local_DCrypt.Properties.Resources.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Remote_DCrypt.Settings.FormSettings.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\obj\Debug\Local DCrypt.csproj.GenerateResource.Cache
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\bin\Release\Netcode.Common.dll
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\bin\Release\Netcode.Common.pdb
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\bin\Debug\LCrypt.exe
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\bin\Debug\LCrypt.pdb
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\bin\Debug\Netcode.Common.dll
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.3\Local DCrypt\bin\Debug\Netcode.Common.pdb
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Debug\LCrypt.exe
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Debug\LCrypt.pdb
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\bin\Release\LCrypt.exe
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\bin\Release\LCrypt.pdb
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\bin\Release\Netcode.Common.dll
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\bin\Release\Netcode.Common.pdb
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Release\ResolveAssemblyReference.cache
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Release\Local_DCrypt.FormCM.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Release\Local_DCrypt.FormPref.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Release\Netcode.Controls.FlatFileExplorer.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Release\Remote_DCrypt.Controls.FormCFolder.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Release\Remote_DCrypt.Controls.FormViewer.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Release\Remote_DCrypt.FormMain.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Release\Local_DCrypt.Properties.Resources.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Release\Remote_DCrypt.Settings.FormSettings.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Release\Local DCrypt.csproj.GenerateResource.Cache
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Release\LCrypt.exe
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Release\LCrypt.pdb
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\bin\Debug\Netcode.Common.dll
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\bin\Debug\Netcode.Common.pdb
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Debug\ResolveAssemblyReference.cache
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Debug\Local_DCrypt.FormCM.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Debug\Local_DCrypt.FormPref.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Debug\Netcode.Controls.FlatFileExplorer.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Debug\Remote_DCrypt.Controls.FormCFolder.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Debug\Remote_DCrypt.Controls.FormViewer.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Debug\Remote_DCrypt.FormMain.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Debug\Local_DCrypt.Properties.Resources.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Debug\Remote_DCrypt.Settings.FormSettings.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Debug\Local DCrypt.csproj.GenerateResource.Cache
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\bin\Debug\LCrypt.exe
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\bin\Debug\LCrypt.pdb
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Debug\Remote_DCrypt.FormLicensing.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\bin\Debug\Changelog.txt
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\obj\Release\Remote_DCrypt.FormLicensing.resources
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\bin\Release\Changelog.txt
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\bin\Release\License-rus_v1.4.txt
+Q:\Проекты NL3\Local_DCrypt_SRC_v1.4\Local DCrypt\bin\Debug\License-rus_v1.5.txt

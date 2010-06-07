@@ -5,7 +5,8 @@ using System.Xml.Serialization;
 using System.IO;
 using System.Windows.Forms;
 using System.Security.Cryptography;
-using Remote_DCrypt.Action;
+using Necode.Crypt.Action;
+using Netcode.Crypt;
 
 namespace Remote_DCrypt.Settings
 {
@@ -81,7 +82,7 @@ namespace Remote_DCrypt.Settings
                 using (MemoryStream sWriter = new MemoryStream(12))
                 {
                     myXmlSer.Serialize(sWriter, o);
-                    new Crypt().encryt_byte_to_file(Encoding.ASCII.GetString(key), 256, sWriter.GetBuffer(), path_to_set_file, new ProgressBar());
+                    new FileCrypt().encryt_byte_to_file(Encoding.ASCII.GetString(key), 256, sWriter.GetBuffer(), path_to_set_file, new ProgressBar());
                     sWriter.Close();
                 }
                 res = true;
@@ -117,7 +118,7 @@ namespace Remote_DCrypt.Settings
                 pdb.HashName = "SHA512"; //будем использовать SHA512
                 byte[] key = pdb.GetBytes(12);
 
-                byte[] bt = new Crypt().decrypt_file_to_byte(Encoding.ASCII.GetString(key), 256, path_to_set_file, new ProgressBar());
+                byte[] bt = new FileCrypt().decrypt_file_to_byte(Encoding.ASCII.GetString(key), 256, path_to_set_file, new ProgressBar());
 
                 using (MemoryStream ms = new MemoryStream(bt, false))
                 {

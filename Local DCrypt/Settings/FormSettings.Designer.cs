@@ -35,8 +35,8 @@
             this.tabSet = new System.Windows.Forms.TabControl();
             this.tabServ = new System.Windows.Forms.TabPage();
             this.gBoxConnSet = new System.Windows.Forms.GroupBox();
-            this.textBoxSelectFolderRight = new Local_DCrypt.Controls.TextBoxSelectFolder();
-            this.textBoxSelectFolderLeft = new Local_DCrypt.Controls.TextBoxSelectFolder();
+            this.textBoxSelectFolderRight = new Netcode.Controls.TextBoxSelectFolder();
+            this.textBoxSelectFolderLeft = new Netcode.Controls.TextBoxSelectFolder();
             this.label7 = new System.Windows.Forms.Label();
             this.label_right = new System.Windows.Forms.Label();
             this.comboBox_use_auth_key = new System.Windows.Forms.ComboBox();
@@ -539,8 +539,8 @@
         private System.Windows.Forms.CheckBox checkBox_shell;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label7;
-        private Local_DCrypt.Controls.TextBoxSelectFolder textBoxSelectFolderLeft;
-        private Local_DCrypt.Controls.TextBoxSelectFolder textBoxSelectFolderRight;
+        private Netcode.Controls.TextBoxSelectFolder textBoxSelectFolderLeft;
+        private Netcode.Controls.TextBoxSelectFolder textBoxSelectFolderRight;
         private System.Windows.Forms.GroupBox groupBox_cm;
         private System.Windows.Forms.Label label_fcont;
         private System.Windows.Forms.TextBox textBox_fcont;
